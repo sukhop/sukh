@@ -1,0 +1,67 @@
+/* colors animation for navbar logo */
+@keyframes colors {
+    0% {
+        color: #DA0037;
+    } 10% {
+        color: #d300da;
+    } 20% {
+        color: #6600da;
+    } 30% {
+        color: #0083da;
+    } 40% {
+        color: #00da83;
+    } 50% {
+        color: #2cda00;
+    } 60% {
+        color: #dab200;
+    } 100% {
+        color: #DA0037;
+    }
+}
+
+/* Shake animation Index Main */
+@keyframes shake{
+    0%{
+        transform:rotate(0deg)
+    } 5% {
+        transform:rotate(-10deg)
+    } 10% {
+        transform:rotate(12deg)
+    } 15% {
+        transform:rotate(-10deg)
+    } 20% {
+        transform:rotate(9deg)
+    } 25% {
+        transform:rotate(0deg)
+    } 100% {
+        transform:rotate(0deg);
+    }
+}
+
+/* UpDown animation Index Main */
+@keyframes upDown {
+    0% {
+        transform: translateY(0px);
+    } 25% {
+        transform: translateY(10px);
+    } 50% {
+        transform: translateY(-10px);
+    } 75% {
+        transform: translateY(15px);
+    } 100% {
+        transform: translateY(0px);
+    }
+}
+
+/* breath animation About Main */
+@keyframes breath {
+    0% {
+        box-shadow: 0px 30px 10px -40px var(--theme-red);
+    }
+    50% {
+        box-shadow: 0px 30px 60px -40px var(--theme-red);
+    }
+    100% {
+        box-shadow: 0px 30px 10px -40px var(--theme-red);
+    }
+}
